@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}html,
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxW6ls_Yd2k6GFvYqUSfKp6T3iScBU_Y6SrSlTRCyeVWHF3WCSwieWTu7xsxtLyyCyazQ&usqp=CAU");
+     background-size: cover;
+     background-position: center;
+    place-items: center;
+   background:linear-gradient(90deg #00d2ff 0%, #3a47d5 100%);
+}
+.container1{
+    width: 100%;
+    height: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  
+    
+}
+ 
+
+.container1 .smd2 img{
+    width: 60%;
+    height: 60%; 
+    background-color: pink;
+    margin-left: 20%;
+    margin-top: 10% ;
+    
+} 
+.smd2 img:hover{
+    cursor: pointer;
+    width: 70%;
+    height: 70%;
+
+}
+.smd1{
+    width: 60%;
+    height: 60%;
+    
+}
+ .smd2{
+    width: 40%;
+    height: 60%;
+
+
+
+ }  
+
+ .smd1 h2{
+    font-size: 70px;
+    font-weight: 500;
+    margin-left: 15%;
+   
+}
+h2:hover{
+    color: #3a47d5;
+}
+ .smd1 p{
+    font-size: 20px;
+    margin-right: 30%;
+    margin-left: 15%;
+   
+} 
+nav{
+    width: 100%;
+    height: 10%;
+    background-color:transparent;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+ position: fixed;
+ top: 0;
+ 
+   
+}
+    
+nav ul {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+li{
+    list-style: none;
+    margin-left:  100px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+li:hover{
+    cursor: pointer;
+    font-size: 30px;
+    color: red;
+    background-color: rgb(30, 0, 255);
+}
+button{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    margin-right: 30px;
+    border-radius: 25px;
+}
+button:hover{
+    cursor: pointer;
+    font-size: 35px;
+    background-color: white;
+    border:1px solid black ;
+    color: black;
+}
+h1{
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 20px ;
+}
+
+
+.container2{
+    width: 100%;
+    height: 100%;
+background-color: white;
+
+   
+
+}
+#bt1{
+    background-color: transparent;
+    width: 600px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: black;
+    margin-left: 20%;
+    margin-top: 6%;
+  
+   
+}
+#bt2{
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 6%;
+   
+   
+   
+}
+.con1{
+    width: 100%;
+    height: 40%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+ align-items: center;    
+}
+.c1{
+    width: 20%;
+    height: 80%;
+
+}
+h3{
+    font-size: 50px;
+    font-weight: 500;
+    margin-left: 40%;
+}
+h4{
+    
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 20%;
+}
+h5{
+    margin-top: 10%;
+margin-left: 10%;
+font-size: 20px;
+font-weight: 400;
+}
+.c2{
+    
+    width: 20%;
+    height: 80%;
+   
+}
+.c3{
+    
+    width: 20%;
+    height: 80%;
+   
+}
+
+.c4{
+    
+    width: 20%;
+    height: 80%;
+    
+}
+.container3{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color:white;
+    /* position: relative; */
+     /* display: grid; */
+   place-items: center;
+   overflow: hidden;
+}
+h6{
+    font-size: 60px;
+    margin-left: 30%;
+    margin-top: 5%;
+
+}
+.smd3{
+    width: 100%;
+    height: 100%;
+     margin-top: 5%;
+     display: flex;
+     animation: scroll 20s linear infinite;
+    
+   
+}
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-100% * 2));
+    }
+}
+.slideimg1{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+img{
+    width: 500px;
+    height: 500px;
+  transition: transform 1s;
+  background-size: cover;
+  background-position: center;
+}
+img:hover{
+    transform: translate(20px);
+}
+.container4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+.content1{
+    width: 50%;
+    height: 70%;
+   
+   
+
+}
+.container4 .content{
+    font-size: 80px;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+.p1{
+    font-size: 30px;
+   margin-left: 10%;
+   margin-top: 20%;
+
+}
+.content2{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.content2 img{
+    width: 80%;
+    height: 80%;
+
+}
+.content2 img:hover{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.container5{
+    width: 100%;
+    height: 100%;
+/* display: block;
+justify-content: space-between;
+align-items: center; */
+}
+.qs1{
+    font-size: 50px;
+    margin-left: 35%;
+}
+.line1{
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    margin-left: 10%;
+    margin-top: 3%;
+    
+}
+.qs2{
+    font-size: 30px;
+    margin-left: 10%;
+}
+.container6{
+    width: 100%;
+    height: 100%;
+  
+}
+.incon{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.first{
+    width: 50%;
+    height: 100%;
+   
+   
+
+}
+.second{
+    width: 50%;
+    height: 100%;
+   
+   
+}
+
+.fcc{
+    font-size: 35px;
+}
+.pcon{
+    font-size: 20px;
+}
+.client{
+    font-size: 60px;
+    margin-top: 10%;
+    margin-left: 35%;
+}
+.imgdiv{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    margin-left: 40%;
+    margin-top: 5%;
+
+}
+.imgdiv img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   background-size: cover;
+   position: center;
+}
+.name{
+    font-size: 25px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.name1{
+    font-size: 20px;
+    margin-left: 20%;
+  
+}
+.container7{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.submit{
+    font-size: 50px;
+    color: white;
+    margin-left: 40%;
+  
+}
+.formcon{
+    font-size: 20px;
+    color: white;
+    margin-left: 35%;
+}
+.form{
+    font-size: 30px;
+    color: white;
+    margin-left: 40%;
+   margin-top: 3%;
+}
+form{
+    font-size: 25px;
+ color: white;
+ 
+ margin-left: 30%;
+}
+input{
+    margin-top: 3%;
+    width: 200px;
+ height: 50px;
+ border-radius: 5%;
+ border: 2px solid white;
+ background-color:rgba(255, 255, 255, 0.285);
+}
+.fstcon{
+width: 50%;
+height: 50px;
+border: 2px solid white;
+color: white;
+margin-right: 5%;
+
+}
+.seccon{
+    width: 70%;
+    height: 100px;
+    border-radius: 5%;
+    border: 2px solid white;
+    color: white;
+    margin-right: 5%;
+}
+.lastbtn{
+    background-color: white;
+    margin-left: 45%;
+    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+    color: black;
+    margin-top: 2%;
+
+}
+.lastbtn:hover{
+    cursor: pointer;
+    background-color: #00d2ff;
+    font-size: 40px;
+}
